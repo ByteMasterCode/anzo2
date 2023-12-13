@@ -1,0 +1,15 @@
+.loanContainer{
+    @apply w-full   h-screen flex flex-col p-10 bg-gray-200;
+}
+
+.loanCard{
+    @apply w-full h-full bg-blue-800 rounded-lg drop-shadow-2xl flex-col rounded-tl-none;
+}
+
+.title{
+    @apply w-full flex flex-row items-center
+}
+
+.steps{
+    @apply text-[12px] ml-24 rounded-t-lg text-white self-end p-2
+}
